@@ -7,6 +7,18 @@ header {
     height: 50vw;
 }
 
+/* font
+Kaushan Script
+Montserrat
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@300&display=swap');
+body {
+    font-family: 'Kaushan Script', cursive;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
 .hero>div {
     height: 40vw;
     width: 100%;
@@ -46,6 +58,14 @@ header {
 }
 
 /* about */
+
+h2::after {
+    content: '';
+    border-bottom: 2px solid rgb(245, 89, 89);
+    display: block;
+    width: 10%;
+    margin: 1em auto;
+}
 
 /* overlay */
 
@@ -151,7 +171,11 @@ header {
     font-size: 1vw;
 }
 
-/* hipster brand logo */
+/* brand logo */
+
+.brands {
+    background-color: rgb(232, 232, 232);
+}
 
 .brand__logo:hover {
     transform: scale(1.3);
@@ -159,4 +183,10 @@ header {
 
 .brand__logo {
     transition: all .2s ease-in-out;
+}
+
+/* service */
+
+.service__icon {
+    color: rgb(149, 225, 211);
 }
