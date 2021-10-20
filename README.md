@@ -1,3 +1,4 @@
 # github.io-mogo
 # bootstrap with css3 and html5
-![Screenshot](screenshot.png)
+![screenshot](../main/assets/img/screenshot.png)
+
