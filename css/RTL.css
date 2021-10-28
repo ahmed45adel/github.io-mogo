@@ -7,9 +7,16 @@ header {
     height: 50vw;
 }
 
+/* font
+Kaushan Script
+Montserrat
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@300&display=swap');
 body {
-    font-family: 'Kaushan Script';
+    font-family: 'Kaushan Script', cursive;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 .hero>div {
@@ -20,11 +27,11 @@ body {
 }
 
 .nav__ul {
-    margin-left: 22vw;
+    margin-right: 1vw;
 }
 
 .nav__logo {
-    margin-left: 20vw;
+    margin-right: 20vw;
 }
 
 .creative__template {
@@ -46,7 +53,7 @@ body {
 
 @media screen and (max-width: 992px) {
     .nav__ul, .nav__logo {
-        margin-left: 0vw;
+        margin-right: 0vw;
     }
 }
 
@@ -87,7 +94,7 @@ h2::after {
 .overlay__container:hover .image {
     opacity: 1;
     cursor: pointer;
-    transform: translate(-10px, -10px);
+    transform: translate(10px, -10px);
 }
 
 .overlay__container:hover .middle {
@@ -96,7 +103,7 @@ h2::after {
     opacity: 0.8;
     cursor: pointer;
     border: none;
-    transform: translate(-10px, -10px);
+    transform: translate(10px, -10px);
     background-image: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
 }
 
@@ -133,7 +140,7 @@ h2::after {
     width: 12vw;
     height: 22vw;
     margin-bottom: -5%;
-    margin-left: -7%;
+    margin-right: -7%;
 }
 
 /* statistics */
@@ -146,7 +153,7 @@ h2::after {
 .stats_card {
     border-color: white;
     border-style: solid;
-    border-width: 0px 0.5px 0px 0px;
+    border-width: 0px 0px 0px 0.5px;
     padding: 2vw 0 2vw 0;
 }
 
@@ -179,7 +186,6 @@ h2::after {
 }
 
 /* service */
-
 .above__quote {
     margin-bottom: 5%;
 }
@@ -187,85 +193,70 @@ h2::after {
 .service__icon {
     color: rgb(149, 225, 211);
 }
-
 /* services2 */
-
 .blockquote-footer::before {
     color: red;
 }
-
 .service2__quote {
     background-color: rgb(241, 241, 241);
-    padding: 5%;
-}
+padding: 5%;
 
-.service2__card {
+}
+ .service2__card {
     width: 80%;
     margin: 0 auto;
     background-color: rgb(241, 241, 241);
-}
 
+}
 .quote__icon {
     color: rgb(149, 225, 211);
-    font-size: 7rem;
+font-size: 7rem;
 }
-
 .wrapper {
-    margin: 0 6rem 0 6rem;
+    margin:0 6rem 0 6rem ;
 }
 
-/* footer */
-
-.footer {
+ /* footer */ 
+ .footer {
     background: rgb(231, 231, 231);
     color: black;
 }
-
 .footer .links ul {
     list-style-type: none;
 }
-
 .footer .links li a {
     color: black;
     transition: color 0.2s;
 }
-
 .footer .links li a:hover {
     text-decoration: none;
     color: #4180cb;
 }
-
 .footer .about-company i {
     font-size: 25px;
 }
-
 .footer .about-company a {
     color: black;
     transition: color 0.2s;
 }
-
 .footer .about-company a:hover {
     color: #4180cb;
 }
-
 .footer .location i {
     font-size: 18px;
 }
-
 .footer .copyright p {
     border-top: 1px solid rgba(255, 255, 255, .1);
 }
-
 .subscribe {
     height: 100%;
     background-color: rgb(149, 225, 211);
     border: none;
 }
-
 .copyright::before {
     content: '';
     border-bottom: 2px solid rgb(87, 86, 86);
     display: block;
     width: 100%;
-    margin: 1em auto;
+    margin: 1em auto;    
 }
