@@ -1,10 +1,3 @@
-// change attributes in html tag lang and dir
-// load RTL.css to override
-
-// Create new link Element
-
-
-
 changeLang = () => {
 
    let html = document.querySelector("html")
