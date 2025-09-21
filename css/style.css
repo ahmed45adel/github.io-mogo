@@ -11,7 +11,9 @@ header {
 body {
     font-family: 'Kaushan Script';
 }
-
+.nav__ul {
+  justify-content: center;
+}
 .hero>div {
     height: 40vw;
     width: 100%;
